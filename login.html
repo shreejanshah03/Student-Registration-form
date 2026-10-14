@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="hd.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-box">
+
+            <h2>Student Registration</h2>
+
+            <form>
+                <label>FULL NAME</label>
+                <input type="text" placeholder="Enter full name" required>
+
+                <label>EMAIL ADDRESS</label>
+                <input type="email" placeholder="student@college.edu" required>
+
+                <label>GENDER</label>
+                <div class="gender">
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                    <input type="radio" name="gender"> Other
+                </div>
+
+                <label>DEPARTMENT</label>
+                <select>
+                    <option>CSE</option>
+                    <option>ISE</option>
+                    <option>AIML</option>
+                    <option>CSD</option>
+                    <option>ECE</option>
+                </select>
+
+                <label>YEAR OF STUDY</label>
+                <select>
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                    <option>4th Year</option>
+                </select>
+
+                <br><br>
+
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>
